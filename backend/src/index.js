@@ -22,7 +22,7 @@ app.use(cors({
 
 
 app.use("/api/auth",authRoutes);
-app.use("/api/message",messageRouter);
+app.use("/api/messages",messageRouter);
 
 app.use(errorHandler)
 
